@@ -1,16 +1,16 @@
 //
-//  UIView+XLKVO.h
+//  NSObject+XLKVO.h
 //  01·iOS 面试题·项目中用过 Runtime 吗？
 //
-//  Created by Mac-Qke on 2019/7/5.
+//  Created by Mac-Qke on 2019/7/8.
 //  Copyright © 2019 Mac-Qke. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 typedef void(^XLKVOCompleteBlock)(id observer, NSString *keyPath, id oldValue, id newValue);
-@interface UIView (XLKVO)
+@interface NSObject (XLKVO)
 //利用 objc_allocateClassPair、object_setClass 等 API 来实现 KVO Block
 
 /**

@@ -15,8 +15,8 @@
 		9F5C009622CEDB2100D88C69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C009522CEDB2100D88C69 /* main.m */; };
 		9F5C009F22CEDE0C00D88C69 /* UIView+NSSting.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C009E22CEDE0C00D88C69 /* UIView+NSSting.m */; };
 		9F5C00A222CEF44100D88C69 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C00A122CEF44100D88C69 /* Person.m */; };
-		9F5C00A522CEFA0100D88C69 /* UIView+XLKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C00A422CEFA0100D88C69 /* UIView+XLKVO.m */; };
 		9F5C00A822CEFAA000D88C69 /* XLMulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C00A722CEFAA000D88C69 /* XLMulticastDelegate.m */; };
+		9FC6F92A22D31522009AA5F8 /* NSObject+XLKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6F92922D31522009AA5F8 /* NSObject+XLKVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +34,10 @@
 		9F5C009E22CEDE0C00D88C69 /* UIView+NSSting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+NSSting.m"; sourceTree = "<group>"; };
 		9F5C00A022CEF44100D88C69 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		9F5C00A122CEF44100D88C69 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		9F5C00A322CEFA0100D88C69 /* UIView+XLKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XLKVO.h"; sourceTree = "<group>"; };
-		9F5C00A422CEFA0100D88C69 /* UIView+XLKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XLKVO.m"; sourceTree = "<group>"; };
 		9F5C00A622CEFAA000D88C69 /* XLMulticastDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLMulticastDelegate.h; sourceTree = "<group>"; };
 		9F5C00A722CEFAA000D88C69 /* XLMulticastDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLMulticastDelegate.m; sourceTree = "<group>"; };
+		9FC6F92822D31522009AA5F8 /* NSObject+XLKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+XLKVO.h"; sourceTree = "<group>"; };
+		9FC6F92922D31522009AA5F8 /* NSObject+XLKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XLKVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +83,10 @@
 				9F5C009E22CEDE0C00D88C69 /* UIView+NSSting.m */,
 				9F5C00A022CEF44100D88C69 /* Person.h */,
 				9F5C00A122CEF44100D88C69 /* Person.m */,
-				9F5C00A322CEFA0100D88C69 /* UIView+XLKVO.h */,
-				9F5C00A422CEFA0100D88C69 /* UIView+XLKVO.m */,
 				9F5C00A622CEFAA000D88C69 /* XLMulticastDelegate.h */,
 				9F5C00A722CEFAA000D88C69 /* XLMulticastDelegate.m */,
+				9FC6F92822D31522009AA5F8 /* NSObject+XLKVO.h */,
+				9FC6F92922D31522009AA5F8 /* NSObject+XLKVO.m */,
 			);
 			path = "01·iOS 面试题·项目中用过 Runtime 吗？";
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F5C008B22CEDB1E00D88C69 /* ViewController.m in Sources */,
-				9F5C00A522CEFA0100D88C69 /* UIView+XLKVO.m in Sources */,
+				9FC6F92A22D31522009AA5F8 /* NSObject+XLKVO.m in Sources */,
 				9F5C009F22CEDE0C00D88C69 /* UIView+NSSting.m in Sources */,
 				9F5C00A222CEF44100D88C69 /* Person.m in Sources */,
 				9F5C00A822CEFAA000D88C69 /* XLMulticastDelegate.m in Sources */,
